@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+@font-face {
+  font-family: allerBd;
+  src: url('../public/Aller_Bd.ttf');
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.btnP{
+  background-color: #00bea4;
+  border: none;
+  color: white;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 3px;
+
+}
+.btnP:active{
+ transform: scale(1.1);
+
+}
+summary {
+  outline: none;
+  font-size: 1.15em;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary:after {
+  background: #00bea4;
+  border-radius: 3px;
+  content: "+ ";
+  color: #fff;
+  float: left;
+  font-size: 1em;
+  font-weight: bold;
+  margin: -2px 10px 0 0;
+  padding: 1px 0 3px 0;
+  text-align: center;
+  width: 30px;
+}
+
+details[open] summary:after {
+  content: "- ";
+}

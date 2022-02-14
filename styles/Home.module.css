@@ -1,0 +1,67 @@
+.title2{
+  text-align: center;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: allerBd;
+}
+
+.topo{
+  padding: 20px;
+}
+.main{
+  background-color: #f6f6f660;
+  padding: 50px;
+  
+}
+.linkName{
+  background-color: #00bea4;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: allerBd;
+
+}
+.container a:hover{
+  color: black;
+  transition: all 350ms ease-in-out;
+}
+.container summary {
+  display: list-item;
+  cursor: pointer;
+  padding: 20px;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #00000030;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.container select,
+.container input{
+  margin-bottom: 20px;
+}
+.container h1{
+  font-family: allerBd;
+}
+.footer{
+  background-color: rgb(33 37 41);
+  position: relative;
+  width: 100%;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1200px) {
+  .linkName{
+    display: block;
+    text-align: center;
+  }
+  .container h1{
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+}
