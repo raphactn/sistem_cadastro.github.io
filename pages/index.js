@@ -19,9 +19,8 @@ export default function Home() {
       </Head>
       <Nav />
       <Profile />
-
       <main className={styles.main}>
-
+      
         <Cadastro />
         <hr />
         <Incluir />
