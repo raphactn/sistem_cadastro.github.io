@@ -18,8 +18,6 @@ export default function Altera() {
                         <textarea className='form-control' placeholder='Informe a Descrição'></textarea>
                         <label>Informe o valor R$</label>
                         <input className='form-control' type={'number'}></input>
-                        <label>Informe a Marca</label>
-                        <input type={'text'} className='form-control'></input>
                         <label>Escolha a Categoria</label>
                         <select className='form-select' id="consultaCategoria">
                             <option value={''}>Select</option>
