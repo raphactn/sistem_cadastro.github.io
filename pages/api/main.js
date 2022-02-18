@@ -1,3 +1,4 @@
-export default function Main(){
-    return <h1>Olá Mundo</h1>
+
+export default function handler(req, res) {
+    res.status(200).json([{name: product}])
 }

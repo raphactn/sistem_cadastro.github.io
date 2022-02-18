@@ -45,15 +45,7 @@
 .container h1{
   font-family: allerBd;
 }
-.footer{
-  background-color: rgb(33 37 41);
-  position: relative;
-  width: 100%;
-  color: white;
-  padding: 50px;
-  text-align: center;
-  font-weight: 600;
-}
+
 @media only screen and (max-width: 1200px) {
   .linkName{
     display: block;

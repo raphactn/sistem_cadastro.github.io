@@ -25,6 +25,13 @@ a {
   border-radius: 3px;
 
 }
+.btnCategoria{
+  background-color: #00bea4;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
 .btnP:active{
  transform: scale(1.1);
 

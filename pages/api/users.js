@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     if (req.method === 'GET') {
-        res.status(200).json([{ name: 'Produto 1' }, { name: 'Produto 2' }])
+        res.status(200).json([{ name: 'Produto 1' }, { name: 'Produto 2' }, { name: 'Produto 3' }, { name: 'Produto 4' }, { name: 'Produto 5' }, { name: 'Produto 6' }])
     } else if (req.method === 'PUT') {
         res.status(200).json('Mensagem nova')
     }
